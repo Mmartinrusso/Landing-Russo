@@ -7,21 +7,42 @@ const NavBar = () => {
     <nav className="navbar">
       <div className="navbar-container">
         <div className="navbar-brand">
-          <h1 className="navbar-logo">MiTienda</h1>
+          <div className="logo-container">
+            <i className="fas fa-store logo-icon"></i>
+            <h1 className="navbar-logo">TechStore</h1>
+          </div>
         </div>
         
         <ul className="navbar-nav">
           <li className="nav-item">
-            <a href="#inicio" className="nav-link">Inicio</a>
+            <a href="#inicio" className="nav-link">
+              <i className="fas fa-home"></i>
+              Inicio
+            </a>
           </li>
           <li className="nav-item">
-            <a href="#productos" className="nav-link">Productos</a>
+            <a href="#productos" className="nav-link">
+              <i className="fas fa-mobile-alt"></i>
+              Productos
+            </a>
           </li>
           <li className="nav-item">
-            <a href="#categorias" className="nav-link">Categorías</a>
+            <a href="#categorias" className="nav-link">
+              <i className="fas fa-th-large"></i>
+              Categorías
+            </a>
           </li>
           <li className="nav-item">
-            <a href="#contacto" className="nav-link">Contacto</a>
+            <a href="#ofertas" className="nav-link">
+              <i className="fas fa-tags"></i>
+              Ofertas
+            </a>
+          </li>
+          <li className="nav-item">
+            <a href="#contacto" className="nav-link">
+              <i className="fas fa-envelope"></i>
+              Contacto
+            </a>
           </li>
         </ul>
         

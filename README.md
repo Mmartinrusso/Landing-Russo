@@ -6,8 +6,8 @@ Este es un proyecto de e-commerce desarrollado con React como parte de la entreg
 
 ### 1. NavBar
 - Barra de navegación principal
-- Incluye logo de la tienda ("MiTienda")
-- Enlaces de navegación: Inicio, Productos, Categorías, Contacto
+- Incluye logo de la tienda ("TechStore")
+- Enlaces de navegación: Inicio, Productos, Categorías, Ofertas, Contacto
 - Integra el componente CartWidget
 
 ### 2. CartWidget
@@ -18,7 +18,7 @@ Este es un proyecto de e-commerce desarrollado con React como parte de la entreg
 ### 3. ItemListContainer
 - Contenedor principal que mostrará el catálogo de productos
 - Utiliza props para recibir un mensaje de bienvenida personalizado
-- Incluye placeholders para futuros productos
+- Incluye catálogo completo con 12 productos reales
 
 ## Estructura de Archivos
 
@@ -44,6 +44,8 @@ src/
 - ✅ Diseño responsive
 - ✅ Integración de Font Awesome para íconos
 - ✅ Estructura modular y organizada
+- ✅ Catálogo completo con productos reales
+- ✅ Funcionalidad de carrito interactivo
 
 ## Cómo Ejecutar el Proyecto
 
@@ -72,3 +74,6 @@ npm start
 - Agregar funcionalidad al carrito de compras
 - Integrar sistema de categorías
 - Implementar filtros de búsqueda
+
+---
+**Entrega 1 - CreaTuLanding+Russo**
